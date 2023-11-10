@@ -1,1 +1,279 @@
-/* место для вашего кода */
+header{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 92px 49px 92px 51px;
+    height: 292px;
+    justify-content: space-between;
+}
+
+ul,li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+
+nav{
+    width: 382px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+
+address{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+
+a.custom_link{
+    text-decoration: none;
+    border-bottom: 1.5px solid black;  
+    line-height: 1.5;
+}
+
+#bottom_border{
+    border-bottom: 2px solid black;
+    width: fit-content;
+}
+
+#bottom_border_none{
+    text-decoration: none;
+}
+
+.cover{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 758px;
+    position: relative;
+}
+
+.cover_title{
+    width: 100%;
+    
+    z-index: 1;
+    color: white;
+    font-size: 100px;
+    font-weight: 700;
+    margin: 165px 50px 0px;
+}
+
+.black_overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+}
+
+#word_start{
+    letter-spacing: 30px;
+}
+
+#word_center{
+    text-align: center;
+    padding-right: 100px;
+    letter-spacing: 30px;
+    margin-top: 9px;
+}
+
+#word_end{
+    text-align: right;
+    padding-right: 100px;
+    margin-top: 3px;
+    letter-spacing: 30px;
+}
+
+.text_and_button{
+    display: flex;
+    z-index: 1;
+    font-size: 22px;
+    color: white;
+    margin-top: 140px;
+    padding-left: 422px;
+    word-spacing: 17.1px;
+}
+
+button{
+    background-color: transparent;
+    color: white;
+    font-size: 22px;
+    border: 2px solid white;
+    padding: 12px 32px;
+    margin-left: 78px;
+    margin-top: -14px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+.lots_section{
+    background-color: white;
+}
+
+.lots_and_cards{
+    padding: 180px 50px;
+}
+
+.title_lots{
+    background-color: white;
+    font-weight: 700;
+    padding-left: 40px;
+    padding-bottom: 27px;
+    font-size: 40px;
+}
+
+.lots{
+    background-color: white;
+    display: flex;
+}
+
+.lots_card_list{
+    display: flex;
+    flex-grow: 1;
+}
+
+.lots_card_list_item{
+    display: flex;
+    width: 430px;
+}
+
+.blackout_card {
+    text-decoration: none;
+    position: relative;
+}
+
+.blackout_card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.title_in_card{
+    position: absolute;
+    color: white;
+    text-decoration: underline;
+    font-size: 22px;
+    font-size: 21.5px;
+    font-weight: 700;
+    top: 51px;
+    left: 38px;
+    font-weight: 700;
+    z-index: 9;
+}
+
+.paragraph_in_card_film,
+.paragraph_in_card_book,
+.paragraph_in_card_picture{
+    position: absolute;
+    color: white;
+    left: 40px;
+    line-height: 1.25;
+    font-weight: 400;
+    z-index: 9;
+    font-size: 19px;
+}
+
+
+.paragraph_in_card_film{
+    top: 305px;
+}
+
+.paragraph_in_card_book{
+    top: 160px;
+}
+
+.paragraph_in_card_picture{
+    top: 208px;
+}
+
+#see_more{
+    font-size: 20px;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-left: 57px;
+    padding-right: 57px;
+    background-color: white;
+}
+
+.black_circle{
+    background-color: black;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    margin-left: 88px;
+}
+
+.white_logo{
+    height: 114px;
+    position: relative;
+    top: 65px;
+}
+
+.text_about{
+    padding-top: 103px;
+    padding-left: 6px;
+}
+
+.text_about p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.text_about h1{
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    padding-top: 180px;
+    background-color: white;
+}
+
+.columns_link{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    letter-spacing: 0;
+    width: auto;
+}
+
+.icones{
+    height: 48px;
+    width: auto;
+}
+
+.footer_address{
+    padding-left: 50px;
+    padding-bottom: 90px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 142px;
+}
