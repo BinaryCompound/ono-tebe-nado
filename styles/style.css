@@ -109,7 +109,8 @@ a.custom_link {
     display: flex;
     z-index: 1;
     font-size: 18px;
-    word-spacing: 21.1px;
+    font-weight: 400;
+    word-spacing: 19.1px;
     text-transform: uppercase;
     color: white;
     margin-top: 140px;
