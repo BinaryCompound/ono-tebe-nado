@@ -108,7 +108,8 @@ a.custom_link {
 .text_and_button {
     display: flex;
     z-index: 1;
-    word-spacing: 29.1px;
+    font-size: 18px;
+    word-spacing: 21.1px;
     text-transform: uppercase;
     color: white;
     margin-top: 140px;
