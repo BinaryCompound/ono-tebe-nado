@@ -24,7 +24,7 @@ ul {
     padding-right: 5px;
 }
 
-#non-mark {
+.non-mark {
     list-style: none;
 }
 
@@ -46,7 +46,7 @@ a.custom_link {
     width: fit-content;
 }
 
-#bottom_border_none {
+.bottom_border_none {
     text-decoration: none;
 }
 
