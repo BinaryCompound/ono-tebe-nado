@@ -8,7 +8,7 @@ header {
     padding: 92px 49px 92px 51px;
 }
 
-#logo{
+#logo {
     height: 105px;
 }
 
@@ -92,7 +92,7 @@ a.custom_link {
     font-size: 100px;
 }
 
-#margin_letter_start{
+#margin_letter_start {
     margin-left: 30px;
 }
 
@@ -104,7 +104,7 @@ a.custom_link {
     margin-top: 9px;
 }
 
-#margin_letter_center{
+#margin_letter_center {
     margin-right: 60px;
 }
 
@@ -116,7 +116,7 @@ a.custom_link {
     letter-spacing: 30px;
 }
 
-#margin_letter_end{
+#margin_letter_end {
     position: relative;
     left: 30px;
 }
@@ -134,7 +134,7 @@ a.custom_link {
     gap: 51px;
 }
 
-#word_padding_left{
+#word_padding_left {
     padding-left: 4px;
 }
 
@@ -191,11 +191,11 @@ button:hover {
     width: 430px;
 }
 
-.background_card_film{
+.background_card_film {
     background-image: url(../images/card-lot-01.jpg);
 }
 
-.background_card_book{
+.background_card_book {
     background-image: url(../images/card-lot-02.jpg);
 }
 
@@ -205,7 +205,7 @@ button:hover {
 
 .background_card_film,
 .background_card_book,
-.background_card_picture{
+.background_card_picture {
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
@@ -236,7 +236,7 @@ button:hover {
     z-index: 9;
 }
 
-#size_font_editing{
+#size_font_editing {
     font-size: 22px;
 }
 
@@ -245,9 +245,7 @@ button:hover {
 .paragraph_in_card_picture {
     position: relative;
     color: white;
-    word-spacing: 3px;
     left: 40px;
-    word-spacing: 0px;
     line-height: 24px;
     font-weight: 400;
     z-index: 9;
@@ -357,11 +355,11 @@ footer {
     padding-left: 140px;
 }
 
-.padding_socials ul{
+.padding_socials ul {
     padding: 0;
 }
 
-.padding_list_footer{
+.padding_list_footer {
     padding-left: 20px;
     padding-top: 1px;
 }
