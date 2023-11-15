@@ -5,26 +5,25 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     gap: 3em;
-    padding: 92px 49px 92px 51px;
+    padding: 92px 49px 92px 39px;
 }
 
 #logo {
     height: 105px;
+    padding-left: 10px;
 }
 
 nav {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding-right: 20px;
+    padding-right: 10px;
     align-items: center;
     font-size: 18px;
-    gap: 18px;
+    gap: 32px;
 }
 
 ul {
     list-style: circle;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
 .non-mark {
@@ -34,14 +33,15 @@ ul {
 address {
     font-family: Raleway, sans-serif;
     font-style: normal;
-    padding-left: 170px;
+    line-height: 24px;
+    padding-top: 5px;
+    padding-left: 174px;
     font-size: 18px;
 }
 
 a.custom_link {
     text-decoration: none;
     border-bottom: 1.5px solid black;  
-    line-height: 1.5;
 }
 
 #bottom_border {
@@ -129,7 +129,7 @@ a.custom_link {
     word-spacing: 19.5px;
     text-transform: uppercase;
     color: white;
-    margin-top: 138px;
+    margin-top: 140px;
     justify-content: end;
     gap: 51px;
 }
@@ -229,7 +229,7 @@ button:hover {
     position: relative;
     color: white;
     text-decoration: underline;
-    top: 51px;
+    top: 52px;
     left: 40px;
     font-size: 22px;
     font-weight: 700;
@@ -333,7 +333,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-top: 4px;
     gap: 0;
 }
@@ -351,7 +351,7 @@ footer {
 .socials {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 3px;
+    padding-top: 5px;
     padding-left: 140px;
 }
 
