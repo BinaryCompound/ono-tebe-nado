@@ -65,12 +65,11 @@ a.custom_link {
 }
 
 .cover_title {
-    width: 100%;
     z-index: 1;
     color: white;
     font-size: 100px;
     font-weight: 700;
-    margin: 165px 50px 0px;
+    margin: 165px 20px 0px;
 }
 
 .cover::before {
@@ -88,6 +87,7 @@ a.custom_link {
 }
 
 #word_start {
+    padding-left: 30px;
     letter-spacing: 30px;
     font-size: 100px;
 }
@@ -98,7 +98,6 @@ a.custom_link {
 
 #word_center {
     text-align: center;
-    padding-right: 100px;
     letter-spacing: 30px;
     font-size: 100px;
     margin-top: 9px;
@@ -115,7 +114,6 @@ a.custom_link {
 
 #word_end {
     text-align: right;
-    padding-right: 70px;
     font-size: 100px;
     margin-top: 1px;
     letter-spacing: 30px;
