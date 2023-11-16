@@ -13,7 +13,7 @@ header {
     padding-left: 10px;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     
@@ -108,7 +108,7 @@ a.custom_link {
     margin-right: 60px;
 }
 
-#last_letter_center{
+#last_letter_center {
     position: relative;
     right: 30px;
 }
@@ -257,11 +257,11 @@ article {
     padding-top: 203px;
 }
 
-.paragraph_in_card_book{
+.paragraph_in_card_book {
     padding-top: 33px;
 }
 
-.paragraph_in_card_picture{
+.paragraph_in_card_picture {
     padding-top: 80px;
 }
 
