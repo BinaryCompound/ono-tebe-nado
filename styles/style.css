@@ -326,7 +326,7 @@ footer {
     gap: 0;
 }
 
-.nav_links_footer{
+.nav_links_footer {
     display: flex;
     flex-direction: column;
     align-items: center;
